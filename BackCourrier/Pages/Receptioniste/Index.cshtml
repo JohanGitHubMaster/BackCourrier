@@ -1,0 +1,70 @@
+﻿@page
+@model BackCourrier.Pages.Receptioniste.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Receptionistes[0].Nom)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Model.Receptioniste.Nom)
+            </td>
+            <td>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Expediteur</th>
+                            <th>Objet</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var courrier in Model.Receptioniste.Courriers)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => courrier.Expediteur)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => courrier.Objet)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => courrier.Status.Type)
+                                </td>
+                                <td>
+                                    @if (courrier.StatusId == 3)
+                                    {
+                                        <a asp-page="./Mouvement" asp-route-courrierId="@courrier.Id">Edit</a>
+                                    }                                   
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@Model.Receptioniste.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@Model.Receptioniste.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@Model.Receptioniste.Id">Delete</a>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

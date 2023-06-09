@@ -1,0 +1,42 @@
+using BackCourrier.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+
+namespace BackCourrier.Pages.Receptioniste
+{
+    public class MouvementModel : PageModel
+    {
+        private readonly BackCourrier.Data.CourrierContext _context;
+
+        public MouvementModel(BackCourrier.Data.CourrierContext context)
+        {
+            _context = context;
+        }
+        //public IList<Coursier> Coursier { get; set; } = default!;
+        [BindProperty]
+        public Models.Courriers Courrier { get; set; } = default!;
+
+        public async Task OnGetAsync(int? courrierId)
+        {
+            Courrier = await _context.Courrier.FindAsync(courrierId);
+        }
+        public async Task<IActionResult> OnPostAsync(int? courrierId)
+        {
+            Courrier = await _context.Courrier.FindAsync(courrierId);
+            
+           
+            if (Courrier != null && Courrier.StatusId == 3)
+            {
+                Courrier.StatusId = 1;
+                MouvementCourrier m = new MouvementCourrier() { ReceptionisteId = Courrier.ReceptionisteId, DatedeMouvement = DateTime.Now, CourriersId = courrierId, StatusId = Courrier.StatusId };
+                if (Courrier.MouvementCourriers == null) Courrier.MouvementCourriers = new List<MouvementCourrier>();
+                Courrier.MouvementCourriers.Add(m);
+                _context.Attach(Courrier).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+                return RedirectToPage("./Index", new { id = Courrier.ReceptionisteId });
+            }
+            return Page();
+        }
+    }
+}
