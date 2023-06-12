@@ -24,9 +24,12 @@ namespace BackCourrier.Pages.Coursiers
 
         public async Task OnGetAsync(int id)
         {
+          var courrier =  _context.Courrier.Include(x => x.Coursier).Include(x => x.Status).Include(x=>x.Receptioniste).Include(x => x.CourrierDestinataires).ThenInclude(x => x.Destinataire).Where(x => x.CoursierId == id);
             if (_context.Coursier != null)
             {
-                Coursier = await _context.Coursier.Where(x=>x.Id== id).Include(x=>x.Courriers.Take(10)).ThenInclude(x=>x.Status).FirstOrDefaultAsync();
+                Coursier = await _context.Coursier.Where(x=>x.Id== id).FirstOrDefaultAsync();
+           
+                Coursier.Courriers = courrier.ToList();
             }
         }
 

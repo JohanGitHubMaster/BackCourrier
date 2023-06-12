@@ -2,7 +2,7 @@
 @model BackCourrier.Pages.Coursiers.LoginModel
 @{
 }
-<h1>Edit</h1>
+<h1>Connecter</h1>
 
 <h4>Coursier</h4>
 <hr />
@@ -16,9 +16,8 @@
                 <input asp-for="Coursier.Nom" class="form-control" />
                 <span asp-validation-for="Coursier.Nom" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+            <button type="submit" class="btn btn-primary">Valider</button>
         </form>
     </div>
 </div>
+

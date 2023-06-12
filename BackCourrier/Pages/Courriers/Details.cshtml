@@ -59,7 +59,19 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Courriers.Status.Id)
         </dd>
+        
     </dl>
+    <h3>Liste des destinataires</h3>
+    <ul>
+        @foreach (var destinataire in Model.Courriers.CourrierDestinataires)
+        {
+
+            <li>
+                @destinataire.Destinataire.Nom
+            </li>
+
+        }
+    </ul>
 </div>
 <div>
     <a asp-page="./Edit" asp-route-id="@Model.Courriers?.Id">Edit</a> |

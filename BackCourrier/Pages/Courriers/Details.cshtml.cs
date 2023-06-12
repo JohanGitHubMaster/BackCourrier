@@ -28,7 +28,7 @@ namespace BackCourrier.Pages.Courriers
                 return NotFound();
             }
 
-            var courriers = await _context.Courrier.FirstOrDefaultAsync(m => m.Id == id);
+            var courriers = await _context.Courrier.Include(x=>x.CourrierDestinataires).ThenInclude(x=>x.Destinataire).FirstOrDefaultAsync(m => m.Id == id);
             if (courriers == null)
             {
                 return NotFound();

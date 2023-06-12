@@ -50,6 +50,11 @@
                 <select asp-for="Courriers.StatusId" class="form-control" asp-items="ViewBag.StatusId"><option>All</option></select>
             </div>
             <div class="form-group">
+                <label asp-for="Courriers.Destinataires" class="control-label"></label>
+                <select class="form-control" asp-for="Courriers.Destinataires" name="destinataires" asp-items="ViewBag.DestinataireId"></select>
+            </div>
+   
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

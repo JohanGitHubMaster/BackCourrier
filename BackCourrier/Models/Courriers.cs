@@ -18,5 +18,6 @@
         public Status? Status { get; set; }
         public List<CourrierDestinataire>? CourrierDestinataires { get; set; }
         public List<MouvementCourrier>? MouvementCourriers { get; set; }
+        public List<Destinataire>? Destinataires { get; set; }
     }
 }

@@ -10626,44 +10626,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5\\": {},
-    "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v5\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dossier_asa\\M2\\ProjetM2\\Projet_Naina\\BackCourrier\\BackCourrier\\BackCourrier.csproj",
+      "projectUniqueName": "D:\\M2\\ProjetCoreNaina\\BackRazor\\BackCourrier\\BackCourrier\\BackCourrier.csproj",
       "projectName": "BackCourrier",
-      "projectPath": "D:\\Dossier_asa\\M2\\ProjetM2\\Projet_Naina\\BackCourrier\\BackCourrier\\BackCourrier.csproj",
-      "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "D:\\Dossier_asa\\M2\\ProjetM2\\Projet_Naina\\BackCourrier\\BackCourrier\\obj\\",
+      "projectPath": "D:\\M2\\ProjetCoreNaina\\BackRazor\\BackCourrier\\BackCourrier\\BackCourrier.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\M2\\ProjetCoreNaina\\BackRazor\\BackCourrier\\BackCourrier\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5\\",
-        "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v5\\",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10727,13 +10710,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Vous exécutez l’opération 'restore' avec une source « HTTP », 'http://nuget.grapecity.com/nuget'. L’accès non-HTTPS sera supprimé dans une future version. Envisagez de migrer vers une source « HTTPS »."
-    }
-  ]
+  }
 }

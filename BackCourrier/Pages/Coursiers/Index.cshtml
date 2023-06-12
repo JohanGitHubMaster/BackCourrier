@@ -32,6 +32,8 @@
                             <th>Expediteur</th>
                             <th>Objet</th>
                             <th>Status</th>
+                            <th>Receptionistes</th>
+                            <th>Les Destinataires</th>
                           </tr>
                       </thead>
                       <tbody>
@@ -48,9 +50,21 @@
                                   @Html.DisplayFor(modelItem => courrier.Status.Type)
                               </td>
                                 <td>
+                                    @Html.DisplayFor(modelItem => courrier.Receptioniste.Nom)
+                                </td>
+                                <td>
+                                    <ul>
+                                        @foreach (var it in courrier.CourrierDestinataires)
+                                        {
+                                            <li>@Html.DisplayFor(modelItem => it.Destinataire.Nom)</li>
+                                        }
+                                        
+                                    </ul>
+                                </td>
+                                <td>
                                     @if (courrier.StatusId == 2)
                                     {
-                                        <a asp-page="./Mouvement" asp-route-courrierId="@courrier.Id">Edit</a>
+                                        <a asp-page="./Mouvement" asp-route-courrierId="@courrier.Id">Livrer aux Receptioniste</a>
                                     }
                                 </td>
                           </tr>                           
@@ -60,9 +74,9 @@
                   
                 </td>
                 <td>
-                <a asp-page="./Edit" asp-route-id="@Model.Coursier.Id">Edit</a> |
+                @*<a asp-page="./Edit" asp-route-id="@Model.Coursier.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@Model.Coursier.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@Model.Coursier.Id">Delete</a>
+                <a asp-page="./Delete" asp-route-id="@Model.Coursier.Id">Delete</a>*@
                 
                 </td>
             </tr>

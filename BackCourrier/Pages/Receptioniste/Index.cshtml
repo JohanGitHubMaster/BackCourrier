@@ -32,6 +32,8 @@
                             <th>Expediteur</th>
                             <th>Objet</th>
                             <th>Status</th>
+                            <th>Coursiers</th>
+                            <th>Les Destinataires</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -47,10 +49,24 @@
                                 <td>
                                     @Html.DisplayFor(modelItem => courrier.Status.Type)
                                 </td>
+
+                                <td>
+                                    @Html.DisplayFor(modelItem => courrier.Coursier.Nom)
+                                </td>
+                                <td>
+                                    <ul>
+                                        @foreach (var it in courrier.CourrierDestinataires)
+                                        {
+                                            <li>@Html.DisplayFor(modelItem => it.Destinataire.Nom)</li>
+                                        }
+
+                                    </ul>
+                                </td>
+
                                 <td>
                                     @if (courrier.StatusId == 3)
                                     {
-                                        <a asp-page="./Mouvement" asp-route-courrierId="@courrier.Id">Edit</a>
+                                        <a asp-page="./Mouvement" asp-route-courrierId="@courrier.Id">Livrer aux Déstinataire</a>
                                     }                                   
                                 </td>
                             </tr>

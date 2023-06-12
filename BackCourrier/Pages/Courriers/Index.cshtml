@@ -56,16 +56,16 @@
                 @Html.DisplayFor(modelItem => item.Commentaire)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Coursier.Id)
+                @Html.DisplayFor(modelItem => item.Coursier.Nom)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Receptioniste.Id)
+                @Html.DisplayFor(modelItem => item.Receptioniste.Nom)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Flag.Id)
+                @Html.DisplayFor(modelItem => item.Flag.Type)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Status.Id)
+                @Html.DisplayFor(modelItem => item.Status.Type)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

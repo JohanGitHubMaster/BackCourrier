@@ -25,6 +25,7 @@ namespace BackCourrier.Pages.Courriers
         ViewData["FlagId"] = new SelectList(_context.Flag, "Id", "Type");
         ViewData["ReceptionisteId"] = new SelectList(_context.Receptioniste, "Id", "Nom");
         ViewData["StatusId"] = new SelectList(_context.Status, "Id", "Type");
+        ViewData["DestinataireId"] = new SelectList(_context.Destinataire, "Id", "Nom");
         return Page();
         }
         
@@ -35,11 +36,17 @@ namespace BackCourrier.Pages.Courriers
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
+          var dest =  Request.Form["destinataires"];
           if (!ModelState.IsValid || _context.Courrier == null || Courriers == null)
             {
                 return Page();
             }
-
+            if (Courriers.CourrierDestinataires == null) Courriers.CourrierDestinataires = new List<CourrierDestinataire>();
+          foreach(var d in dest)
+            {
+                
+                Courriers.CourrierDestinataires.Add(new CourrierDestinataire() { CourrierId = Courriers.Id, DestinataireId = Int32.Parse(d) });
+            }
             _context.Courrier.Add(Courriers);
             await _context.SaveChangesAsync();
 

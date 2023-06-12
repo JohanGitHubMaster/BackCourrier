@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BackCourrier
 build_property.RootNamespace = BackCourrier
-build_property.ProjectDir = D:\Dossier_asa\M2\ProjetM2\Projet_Naina\BackCourrier\BackCourrier\
+build_property.ProjectDir = D:\M2\ProjetCoreNaina\BackRazor\BackCourrier\BackCourrier\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Dossier_asa\M2\ProjetM2\Projet_Naina\BackCourrier\BackCourrier
+build_property.MSBuildProjectDirectory = D:\M2\ProjetCoreNaina\BackRazor\BackCourrier\BackCourrier
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Courriers/Create.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Courriers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnJpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Courriers/Delete.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Courriers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnJpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Courriers/Details.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Courriers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnJpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Courriers/Edit.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Courriers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnJpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Courriers/Index.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Courriers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnJpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Create.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Delete.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Details.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Edit.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Index.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Login.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Coursiers/Mouvement.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Coursiers/Mouvement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNpZXJzXE1vdXZlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Error.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Index.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Privacy.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Receptioniste/Index.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Receptioniste/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXB0aW9uaXN0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Receptioniste/Login.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Receptioniste/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXB0aW9uaXN0ZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Receptioniste/Mouvement.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Receptioniste/Mouvement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXB0aW9uaXN0ZVxNb3V2ZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/_ViewImports.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/_ViewStart.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dossier_asa/M2/ProjetM2/Projet_Naina/BackCourrier/BackCourrier/Pages/Shared/_Layout.cshtml]
+[D:/M2/ProjetCoreNaina/BackRazor/BackCourrier/BackCourrier/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1zyia4o5o2
